@@ -13,13 +13,7 @@ body{
 	z-index: 1;
 	border-bottom: 2px solid white;
   }
-  
-  #navbar ul{
-	display: flex;
-	align-items: center;
-	list-style: none;
-	text-decoration: none;
-  }
+ 
   .navbar ul li a {
 	color: white;
 	transition:color 0.3s;
@@ -27,7 +21,7 @@ body{
   }
   
   .navbar li a:hover{
-	background-color: white;
+	background-color: black;
 	color:  #419ab5;
   }
   .d-block img{
