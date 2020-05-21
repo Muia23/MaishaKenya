@@ -14,3 +14,8 @@ function ready() {
         var input = quantityInputs[i]
         input.addEventListener('change', quantityChanged)
     }
+    var addToCartButtons = document.getElementsByClassName('shop-item-button')
+    for (var i = 0; i < addToCartButtons.length; i++) {
+        var button = addToCartButtons[i]
+        button.addEventListener('click', addToCartClicked)
+    }
