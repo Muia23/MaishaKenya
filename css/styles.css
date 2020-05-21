@@ -64,9 +64,10 @@ width:100%;
   margin: 30px;
   font-weight: bold;
 }
-.d-block img{
-  height: 730px;
-  width: 100%;
+.carousel-inner,.carousel-item img{
+height: 730px;
+width:100%;
+
 }
 .about p{
 	font-style: normal;
@@ -198,7 +199,7 @@ text-transform: uppercase;
 .form-inline{
   color: black;
 }
-=======
+
 body{
 	padding: 0px;
 	margin: 0px;
@@ -231,12 +232,7 @@ body{
 	background-color: white;
 	color:  #419ab5;
   }
-  .d-block img{
-	height: 730px;
-  width:100%;
-  
-  }
-  
+ 
   .pg {
 	background-color: #419ab5;
   }
