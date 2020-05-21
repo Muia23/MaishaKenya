@@ -285,7 +285,7 @@ Let’s add some basic style to  product name and description.
 .description {
 padding-top: 10px;
 margin-right: 60px;
-width: 115px;
+width: 115px;	
 }
 
 .description span {
@@ -317,7 +317,7 @@ text-align: center;
 width: 32px;
 font-size: 16px;
 color: #43484D;
-font-weight: 300;<<<<<<< ft-Wil
+font-weight: 300;
 }
 
 button[class*=btn] {
@@ -423,7 +423,7 @@ outline:0;
     align-items: center;
     border-bottom: 1px solid black;
     margin-right: 1.5em;
-    padding-bottom: 10px;
+    padding-bottom: 10px;	
     margin-top: 10px;
 }
 .cart-header {
@@ -506,7 +506,7 @@ h4::after {
 }
 
 .font-weight-light::after{
-  /* This is the underline */
+  /* This is the underline 	*/
 	display: block;
 	content: "";
 	height: 2px;
