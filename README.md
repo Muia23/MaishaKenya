@@ -5,10 +5,15 @@ it is aimed at making health care services accessible everywhere as long as the 
 also allows patients to purchase prescribed drugs.
 
 AUTHOR
+
 Wilfred Muema
+
 Alisha Kavene
+
 Kelvin Keya
+
 Jacinta Chege
+
 Christine Achieng
 
 
