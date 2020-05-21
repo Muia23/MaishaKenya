@@ -14,8 +14,6 @@ body{
 	z-index: 1;
 	border-bottom: 2px solid white;
   }
-  
- 
   .navbar ul li a {
 	color: black;
 	transition: 0.3s;
@@ -23,7 +21,7 @@ body{
   }
   
   .navbar li a:hover{
-	background-color: white;
+	background-color: black;
 	color:  #419ab5;
   }
 
@@ -108,7 +106,7 @@ h4 {
 	margin-top: 10px;
 	margin-bottom: 0px;
 	text-align: center;
-	color: black;
+	color: black;<<<<<<< ft-Wil
 	text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
 }
 h4::after {
@@ -319,7 +317,7 @@ text-align: center;
 width: 32px;
 font-size: 16px;
 color: #43484D;
-font-weight: 300;
+font-weight: 300;<<<<<<< ft-Wil
 }
 
 button[class*=btn] {
@@ -488,4 +486,32 @@ outline:0;
 		    width: 75px;
 		    height: auto;
 		    border-radius: 10px;
+}
+h4 {
+	font-size: 30px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	text-align: center;
+	color: black;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+}
+h4::after {
+	display: block;
+	content: "";
+	height: 2px;
+	width: 125px;
+	background: green;
+	margin: 5px auto 25px;
+	box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
+}
+
+.font-weight-light::after{
+  /* This is the underline */
+	display: block;
+	content: "";
+	height: 2px;
+	width: 125px;
+	background: green;
+	margin: 5px auto 25px;
+	box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
 }
