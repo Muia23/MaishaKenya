@@ -1,3 +1,4 @@
+
 body{
   width:100%;
   padding: 0px;
@@ -110,7 +111,7 @@ h4 {
 	font-size: 30px;
 	margin-top: 10px;
 	margin-bottom: 0px;
-	text-align: center;alishakavene
+	text-align: center;
 	color: black;
 	text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
 }
@@ -301,7 +302,7 @@ h4 {
 	margin-top: 10px;
 	margin-bottom: 0px;
 	text-align: center;
-	color: black;<<<<<<< ft-Wil
+	color: black;
 	text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
 }
 h4::after {
@@ -441,11 +442,7 @@ margin-right: 60px;
 .like-btn {
 display: inline-block;
 Cursor: pointer;
-}<<<<<<< ft-alishakavene
-699
- 
-
-
+} 
 .delete-btn {
 width: 18px;
 height: 17px;
@@ -497,10 +494,7 @@ font-weight: 400;
 margin-bottom: 5px;
 }
 
-.description span:last-child {<<<<<<< ft-alishakavene
-699
- 
-
+.description span:last-child {
 font-weight: 300;
 margin-top: 8px;
 color: #86939E;
