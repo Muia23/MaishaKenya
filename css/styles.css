@@ -209,8 +209,6 @@ text-transform: uppercase;
 	z-index: 1;
 	border-bottom: 2px solid white;
   }
-  
- 
   .navbar ul li a {
 	color: black;
 	transition: 0.3s;
@@ -218,7 +216,7 @@ text-transform: uppercase;
   }
   
   .navbar li a:hover{
-	background-color: white;
+	background-color: black;
 	color:  #419ab5;
   }
 
@@ -303,7 +301,7 @@ h4 {
 	margin-top: 10px;
 	margin-bottom: 0px;
 	text-align: center;
-	color: black;
+	color: black;<<<<<<< ft-Wil
 	text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
 }
 h4::after {
@@ -485,7 +483,7 @@ Let’s add some basic style to  product name and description.
 .description {
 padding-top: 10px;
 margin-right: 60px;
-width: 115px;
+width: 115px;	
 }
 
 .description span {
@@ -567,10 +565,7 @@ cursor: pointer;
 .minus-btn img {
 margin-bottom: 3px;
 }
-.plus-btn img {<<<<<<< ft-alishakavene
-699
- 
-
+.plus-btn img {
 margin-top: 2px;
 }
 
@@ -629,7 +624,7 @@ outline:0;
     align-items: center;
     border-bottom: 1px solid black;
     margin-right: 1.5em;
-    padding-bottom: 10px;
+    padding-bottom: 10px;	
     margin-top: 10px;
 }
 .cart-header {
@@ -693,7 +688,6 @@ outline:0;
 		    height: auto;
 		    border-radius: 10px;
 }
-
 h4 {
 	font-size: 30px;
 	margin-top: 10px;
@@ -711,9 +705,8 @@ h4::after {
 	margin: 5px auto 25px;
 	box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
 }
-
+  /* This is the underline 	*/
 .font-weight-light::after{
-  /* This is the underline */
 	display: block;
 	content: "";
 	height: 2px;
@@ -722,4 +715,3 @@ h4::after {
 	margin: 5px auto 25px;
 	box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
 }
-
