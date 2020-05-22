@@ -25,7 +25,7 @@ box-sizing: border-box;
   background-color: white;
   color:  #419ab5;
 }
-.d-block img{
+ .d-block w-100  {
 height: 730px;
 width:100%;
 
@@ -64,11 +64,6 @@ width:100%;
   margin: 30px;
   font-weight: bold;
 }
-.carousel-inner,.carousel-item img{
-height: 730px;
-width:100%;
-
-}
 .about p{
 	font-style: normal;
 	text-align: center;
@@ -97,6 +92,7 @@ color: white;
 background-attachment: fixed;
 margin-top: 100px;
 }
+
 .stat p{
   font-size: 30px;
 }
@@ -200,175 +196,6 @@ text-transform: uppercase;
   color: black;
 }
 
-.carousel-inner,.carousel-item img{
-height: 730px;
-width:100%;
-
-}
-
-.carousel-caption{
-  color: green;
-  margin: 90px;
-  text-align: center;
-  align-items: center;
-  font-size: 40px;
-}
-
-.carousel-caption h1{
-  color:purple;
-  font-weight: 600;
-
-}
-  
-  .pg {
-	background-color: #419ab5;
-  }
-  
-  .form-group{
-	width: 280px;
-	position: absolute;
-	top: 30%;
-	left:40%;
-	transform: translate(-50% -50%);
-	color: white;
-  }
-  .main h2{
-	  text-transform: uppercase;
-	  text-align: center;
-	  font-style: normal;
-	  font-family: sans-serif;
-	  font-size: medium;
-	  color: mediumblue;
-  }
-
-  .about p{
-	  font-style: normal;
-	  text-align: center;
-	  font-size: 35px;
-	  font-weight: bold;
-  }
-  .container{
-	  width: 100%;
-	  margin-top: 10%;
-	  font-family:sans-serif, sans-serif;
-	  letter-spacing: 1px;
-  }
-  
- .stat {
-align-items: center;
-text-align: center;
-background-color: green;
-height: 300px;
-padding-left: 320px;
-padding-top: 60px;
-padding-bottom:0px;
-color: white;
-background-attachment: fixed;
-margin-top: 100px;
-}
-
-.stat p{
-  font-size: 30px;
-}
-.stat i{
-  font-size: 40px;
-  color: white;
-}
-
-
-h4 {
-	font-size: 30px;
-	margin-top: 10px;
-	margin-bottom: 0px;
-	text-align: center;
-	color: black;
-	text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
-}
-h4::after {
-	display: block;
-	content: "";
-	height: 2px;
-	width: 125px;backup
-	background: green;
-	margin: 5px auto 25px;
-	box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
-}
-.col-md-3 {
-	float: left;
-	width: 25%;
-	padding: 10px;
-	height: 300px;
-}
-.col-md-3 h5{
-	text-transform: uppercase;
-	text-align: center;
-	font-style: normal;
-	font-family: Times New Roman;
-	font-size: 20px;
-}
-.col-md-3 p{
-	text-align: center;
-	font-style: normal;
-	font-family: Times New Roman;
-	font-size: small;
-}
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-.container h4{
-	text-transform: uppercase;
-	text-align: center;
-	font-style: normal;
-	font-family: Times New Roman;
-	font-size: 35px;
-}
-.font-weight-light{
-  font-size: 30px;
-	margin-top: 10px;
-	margin-bottom: 0px;
-	text-align: center;
-	color: black;
-	text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
-}
-.font-weight-light::after{
-  /* This is the underline */
-	display: block;
-	content: "";
-	height: 2px;
-	width: 125px;
-	background: green;
-	margin: 5px auto 25px;
-	box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
-}
-.footer ul {
-	list-style: none;
-	text-align: center;
-}
-.footer ul li{
-	display: inline-block;
-	padding: 0 50px 0 50px;
-}
-.tm-col-footer ul {
-	list-style: none;
-}
-
-.tm-site-footer{
-  list-style: none;
-  background-color: green;
-  height: 150px;
-  margin-top: 20px;
-  text-decoration: none;
-color:white;
-text-transform: uppercase;
-}
-.social ul li a{
-  color: purple;
-}
-.form-inline{
-  color: black;
-} 
   /*cart*/
   .shopping-container {
 	  box-sizing: border-box;
@@ -388,6 +215,7 @@ border-radius: 6px;
 display: flex;
 flex-direction: column;
 }
+
 .title {
 height: 60px;
 border-bottom: 1px solid #E1E8EE;
@@ -656,35 +484,10 @@ outline:0;
     color: #333;
     margin-left: .5em;
     font-size: 1.2em;
-		.cart-item-image {
-		    width: 75px;
-		    height: auto;
-		    border-radius: 10px;
 }
-h4 {
-	font-size: 30px;
-	margin-top: 10px;
-	margin-bottom: 0px;
-	text-align: center;
-	color: black;
-	text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+.cart-item-image {
+	width: 75px;
+        height: auto;
+	border-radius: 10px;
 }
-h4::after {
-	display: block;
-	content: "";
-	height: 2px;
-	width: 125px;
-	background: green;
-	margin: 5px auto 25px;
-	box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
-}
-  /* This is the underline 	*/
-.font-weight-light::after{
-	display: block;
-	content: "";
-	height: 2px;
-	width: 125px;
-	background: green;
-	margin: 5px auto 25px;
-	box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
-}
+
