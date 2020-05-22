@@ -470,7 +470,7 @@ animation-fill-mode: forwards;
 @keyframes animate {
 0%   { background-position: left;  }
 50%  { background-position: right; }
-100% { background-position: right; }
+100% { background-position: right; }<<<<<<< revert-5-revert-4-ft-alisha/maishakenya
 }
 .image {
 margin-right: 50px;
