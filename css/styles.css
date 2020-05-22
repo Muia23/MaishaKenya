@@ -522,3 +522,28 @@ h4::after {
 	margin: 5px auto 25px;
 	box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
 }
+    .card {
+  display: flex;
+   background-color:
+   padding: 20px;
+   margin-top: 20px;
+}
+.item-avatar, .item.tabs{
+  flex: 0 0 auto;
+}
+.item-body {
+  flex:1 1 auto;
+}
+
+/* Clear floats after the columns */
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+.flex-container> div{
+  width:100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 25px;
+}
