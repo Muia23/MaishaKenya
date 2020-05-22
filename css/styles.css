@@ -200,26 +200,6 @@ text-transform: uppercase;
 .form-inline{
   color: black;
 }
-  .navbar {
-	width: 100%;
-	position: sticky;
-	top:0;
-	display:flex;
-	justify-content: space-between;
-	padding: 1rem 1rem;
-	z-index: 1;
-	border-bottom: 2px solid white;
-  }
-  .navbar ul li a {
-	color: black;
-	transition: 0.3s;
-  
-  }
-  
-  .navbar li a:hover{
-	background-color: black;
-	color:  #419ab5;
-  }
 
 .carousel-inner,.carousel-item img{
 height: 730px;
