@@ -5,6 +5,8 @@ Transforming healthcare as we know it
 Maisha kenya is webbased system coded using javascript and html, 
 it is aimed at making health care services accessible everywhere as long as the user has internet service. Maisha kenya allows patients to talk to a doctor directly and given prescription at a fee,
 also allows patients to purchase prescribed drugs.
+## Purpose 
+Our Purpose is to care for the health of Kenyans by providing an easier way to go to the hospital.Maisha Kenya has online doctors ready to care for their patients same to nurses ready to work. We provide a chat box and patient registration form so they can communicate and have their needs atendend to.Also there is an already pharmacy with reliable medication.
 
 ## Authors 
 * [Muia23] (https://github.com/Muia23)
